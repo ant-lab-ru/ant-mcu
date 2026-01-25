@@ -12,9 +12,9 @@ arm-none-eabi-gcc --version
 ```
 
 - Windows:
-	- Скачать установщик: https://developer.arm.com/downloads/-/gnu-rm
-	- Запустить установщи, обязательно отметить добавление cmake в Path
-	- После установки проверить ```arm-none-eabi-gcc --version```
+	- скачать установщик: https://developer.arm.com/downloads/-/gnu-rm;
+	- запустить установщи, обязательно отметить добавление cmake в Path;
+	- после установки проверить ```arm-none-eabi-gcc --version```.
 
 Результат:
 ![[Pasted image 20260124152216.png]]

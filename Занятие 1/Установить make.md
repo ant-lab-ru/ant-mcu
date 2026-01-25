@@ -12,9 +12,9 @@ make --version
 ```
 
 - Windows:
-	- Скачать установщик: https://gnuwin32.sourceforge.net/packages/make.htm
-	- Запустить установщик, обязательно отметить добавление git в Path
-	- После установки проверить ```make --version```
+	- скачать установщик: https://gnuwin32.sourceforge.net/packages/make.htm;
+	- запустить установщик, обязательно отметить добавление git в Path;
+	- после установки проверить ```make --version```.
 
 Результат:
 ![[Pasted image 20260124151744.png]]

@@ -12,9 +12,9 @@ git --version
 ```
 
 - Windows:
-	- Скачать установщик: https://git-scm.com/install/windows
-	- Запустить установщи, обязательно отметить добавление git в Path
-	- После установки проверить ```git --version```
+	- скачать установщик: https://git-scm.com/install/windows;
+	- запустить установщи, обязательно отметить добавление git в Path;
+	- после установки проверить ```git --version```.
 
 Результат:
 ![[Pasted image 20260124150918.png]]
