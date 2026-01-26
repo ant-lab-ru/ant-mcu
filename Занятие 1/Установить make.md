@@ -13,9 +13,20 @@ make --version
 
 - Windows:
 	- скачать установщик: https://gnuwin32.sourceforge.net/packages/make.htm;
-	- запустить установщик make;
+	- Нажать ссылку **Setup** напротив надписи **Complete package, except sources**, затем дождаться таймера на **SourceForge.net**
+
+![[Pasted image 20260126171616.png]]
+
+![[Pasted image 20260126171646.png]]
+
+	- запустить установщик make, следовать инструкциям установки
+
+![[Pasted image 20260126171725.png]]
+
 	- добавить make в Path вручную, т.к. установщик не умеет этого делать автоматически;
 	- после установки проверить ```make --version```.
+
+
 
 Результат:
 ![[Pasted image 20260124151744.png]]
