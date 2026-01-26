@@ -13,7 +13,8 @@ arm-none-eabi-gcc --version
 
 - Windows:
 	- скачать установщик: https://developer.arm.com/downloads/-/gnu-rm;
-	- запустить установщи, обязательно отметить добавление cmake в Path;
+	- запустить установщик, обязательно отметить добавление arm-none-eabi-gcc в Path;
+	- если при установке произошел сбой "Current PATH length too long to modify in installer; set manually if needed", [[Добавить в Path]] вручную;
 	- после установки проверить ```arm-none-eabi-gcc --version```.
 
 Результат:

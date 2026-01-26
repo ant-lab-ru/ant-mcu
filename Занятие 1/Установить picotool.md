@@ -11,7 +11,7 @@ picotool version
 
 - Windows:
 	==picotool, в отличии от других программ, не имеет установщика, мы скачиваем сразу архив с исполняемым файлом и устанавливаем его самостоятельно==
-	- скачать архив с исполняемым файлом и вспомогательными данными:  https://github.com/raspberrypi/pico-sdk-tools/releases;
+	- скачать архив с исполняемым файлом и вспомогательными данными:  https://github.com/raspberrypi/pico-sdk-tools/releases (файл `` picotool-2.2.0-a4-x64-win.zip);
 	- распаковать скаченный архив, запускать exe не нужно;
 	- переместить папку в Program Files;
 	- добавить путь к picotool.exe в PATH;
