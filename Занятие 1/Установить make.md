@@ -1,17 +1,27 @@
-- Linux. Выполнить в терминале:
+---
+тема: Как начать работать с микроконтроллерами
+автор: Егор Анатольевич Денисов
+дата: 2026-01-25
+---
+
+# Linux
+
+Выполнить в терминале:
 ``` bash
 sudo apt update
 sudo apt install make
 make --version
 ```
 
-- MacOS. Выполнить в терминале:
+# MacOS
+
+Выполнить в терминале:
 ``` bash
 brew install make
 make --version
 ```
 
-- Windows:
+# Windows
 	- скачать установщик: https://gnuwin32.sourceforge.net/packages/make.htm;
 	- Нажать ссылку **Setup** напротив надписи **Complete package, except sources**, затем дождаться таймера на **SourceForge.net**
 
