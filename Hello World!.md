@@ -1,8 +1,8 @@
 # Результат
 
 - [ ] На вашем компьютере установлен PUTTY
-- [ ] При запуске прошивки в терминале PUTTY выводится ```Hello World! ``` раз в секунду
-![[Pasted image 20260202111649.png]]
+- [ ] При запуске прошивки в терминале PUTTY выводится ```Hello World! ``` , имя устройства и версия прошивки раз в секунду
+![[Pasted image 20260202173255.png]]
 # Установка и настройка PUTTY
 - Скачать бинарный файл консольной программы [PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 ![[Pasted image 20260127115806.png]]
@@ -20,19 +20,34 @@ mcu
 	|-- linker_rp2040.ld
     |-- pico_sdk_import.cmake
 ```
-- Поменяйте название проекта в ```CMakeLists.txt ``` с ```01-blink ``` на ```02-printf``` 
+- Поменяйте название проекта в ```CMakeLists.txt ``` с ```01-blink ``` на ```02-printf``` . Для этого добавьте следующую строчку перед вызовом функции инициализации Pico SDK:
+``` cmake
+project(02_printf)
+```
+- Теперь явно указанное имя проекта можно везде заменить на ```${PROJECT_NAME} ```. Например добавление в проект файлов с исходным кодом теперь будет выглядеть так:
+``` cmake
+add_executable(${PROJECT_NAME}
+    ${CMAKE_CURRENT_SOURCE_DIR}/main.c
+)
+```
+
 - Настройте Pico SDK для вывода stdout в USB. Для этого добавьте в```CMakeLists.txt ``` строчки после указания файла, в котором находится линкер-скрипт: 
 ``` cmake
-pico_enable_stdio_uart(02_printf 0)
-pico_enable_stdio_usb(02_printf 1)
+pico_enable_stdio_uart(${PROJECT_NAME} 0)
+pico_enable_stdio_usb(${PROJECT_NAME} 1)
 ```
 
 # Прошивка
 - Подключите библиотеки ```stdio.h``` и ```pico/stdlib.h```
+- Определите имя устройство и версию прошивки
+``` c
+#define DEVICE_NAME "my-pico-device"
+#define DEVICE_VRSN "v0.0.1"
+```
 - В теле ``` main``` инициализируйте ```stdio``` следующей строчкой:
 ``` c
 stdio_init_all();
 ```
-- В тело бесконечного цикла добавьте вывод ```Hello World!```
+- В тело бесконечного цикла добавьте вывод ```Hello World!```, имени устройства и текущей версии
 - Добавьте паузу на 1 с после вывода в COM-порт 
 - Загрузите прошивку в устройство, убедитесь что в PUTTY-терминале выводится ```Hello World!```
