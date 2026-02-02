@@ -12,16 +12,23 @@ arm-none-eabi-gcc --version
 ```
 
 - Windows:
-	- Скачать установщик: https://developer.arm.com/downloads/-/gnu-rm
-	- Запустить установщи, обязательно отметить добавление cmake в Path
-	- В процессе установки возможно появление следующего сообщения:
+	- скачать установщик: https://developer.arm.com/downloads/-/gnu-rm;
+	- или тут: https://disk.360.yandex.ru/d/AukS_dPNij9O5w
+	- запустить установщик, обязательно отметить добавление arm-none-eabi-gcc в Path (установить галочки, как на картинке):
 	
-	![[Path.png]]
-		
-	- В этом случае нужно добавить Path вручную аналогично [[Занятие 1/Установить make]]
-	- После установки проверить ```arm-none-eabi-gcc --version```
+![[Pasted image 20260126174512.png]]
+	
+	- если при установке произошел сбой "Current PATH length too long to modify in installer; set manually if needed", [[Добавить в Path]] вручную;
+	- после установки проверить
+	
+``` bash
+arm-none-eabi-gcc --version
+```
 
 Результат:
-![[Занятие 1/Pasted image 20260124152216.png]]
+![[Pasted image 20260124152216.png]]
 
 Версия может отличаться, для наших задач это не принципиально
+
+
+![[Pasted image 20260126174321.png]]
