@@ -18,7 +18,7 @@ arm-none-eabi-gcc --version
 	
 ![[Pasted image 20260126174512.png]]
 	
-	- если при установке произошел сбой "Current PATH length too long to modify in installer; set manually if needed", [[Добавить в Path]] вручную;
+	- если при установке произошел сбой "Current PATH length too long to modify in installer; set manually if needed", [[Добавить в PATH]] вручную;
 	- после установки проверить
 	
 ``` bash
