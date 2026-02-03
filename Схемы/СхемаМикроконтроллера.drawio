@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="wl2Ei2QdisLeSkwK7k77">
+    <mxGraphModel dx="1562" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="40" width="889" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-2" value="Микроконтроллер" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="100" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-4" value="Ядро процессора (CPU)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-5" value="АЛУ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-6" value="Регистры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-7" value="Система тактирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-8" value="Flash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-9" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-10" value="EEPROM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-11" value="Системаня шина" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="320" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-12" value="Таймеры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-13" value="Контроллер прерываний (NVIC)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-14" value="Контроллер DMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905.5" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="590" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-16" value="Цифровые интерфейсы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-17" value="GPIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-18" value="UART" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-19" value="SPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615.5" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-20" value="I2C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-21" value="USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-22" value="АЦП" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="740" width="214.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r7x4Zn8pwe-m7Uf40nR-24" value="ЦАП" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="740" width="214.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
