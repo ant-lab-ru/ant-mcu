@@ -1,0 +1,210 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" modified="2026-02-03T13:57:35.070Z" version="21.2.8" etag="o60hK5vuk6XRaKGDQPeC" type="device" pages="3">
+  <diagram name="Схема компьютера" id="kLHSJ1Utro5dqJlJOPVP">
+    <mxGraphModel dx="1420" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-13" value="&lt;b&gt;МИКРОКОНТРОЛЛЕР&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="710" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iMJ1AoF3rxrUgBw6K5o_-1" value="&lt;b&gt;ПЕРСОНАЛЬНЫЙ КОМПЬЮТЕР&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pWEpl2OpRAW06P2jkHBe-2" target="pWEpl2OpRAW06P2jkHBe-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-2" value="Устройства ввода&lt;div&gt;(клавиатура, мышь, датчики)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="pWEpl2OpRAW06P2jkHBe-5" target="pWEpl2OpRAW06P2jkHBe-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-5" value="Устройства вывода&lt;div&gt;(Монитор, динамик)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="pWEpl2OpRAW06P2jkHBe-6" target="pWEpl2OpRAW06P2jkHBe-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="pWEpl2OpRAW06P2jkHBe-6" target="pWEpl2OpRAW06P2jkHBe-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="pWEpl2OpRAW06P2jkHBe-6" target="pWEpl2OpRAW06P2jkHBe-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-6" value="Системная шина (BUS)&lt;div&gt;(&lt;b&gt;данные, адреса, управление&lt;/b&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="240" y="400" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-9" value="Процессор (CPU)&lt;br&gt;(&lt;b&gt;Intel, AMD&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-11" value="Энергозависимая память (&lt;b&gt;RAM&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="420" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWEpl2OpRAW06P2jkHBe-13" value="Энергонезависимая память (&lt;b&gt;SSD, HDD&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-1" value="Внешние интерфейсы (&lt;b&gt;USB, HDMI, Ethernet&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-3" target="OfiyspJgT2jCt7Dt3bmT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-3" value="Устройства ввода&lt;div&gt;(&lt;b&gt;АЦП&lt;/b&gt;,&amp;nbsp;&lt;b&gt;датчики&lt;/b&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-5" target="OfiyspJgT2jCt7Dt3bmT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-5" value="Устройства вывода&lt;div&gt;(&lt;b&gt;ЦАП, двигатели&lt;/b&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-9" target="OfiyspJgT2jCt7Dt3bmT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-9" target="OfiyspJgT2jCt7Dt3bmT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-9" target="OfiyspJgT2jCt7Dt3bmT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-9" target="OfiyspJgT2jCt7Dt3bmT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-9" value="Системная шина (BUS)&lt;div&gt;(данные, адреса, управление)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="760" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-10" value="Процессор (CPU)&lt;br&gt;(&lt;b&gt;ARM Cortex, &lt;br&gt;RISC-V&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-11" value="Энергозависимая память (RAM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-12" value="Энергонезависимая память (&lt;b&gt;Flash&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-14" value="Внешние интерфейсы (&lt;b&gt;GPIO, SPI, I2C, USB&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-15" value="Периферийные модули&lt;br&gt;(&lt;b&gt;GPIO, ADC, Таймеры&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="OfiyspJgT2jCt7Dt3bmT-17" target="pWEpl2OpRAW06P2jkHBe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfiyspJgT2jCt7Dt3bmT-17" value="Периферийные модули&lt;br&gt;(&lt;b&gt;Видеокарта, Аудиокарта, Сетевая карта&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AFn0Ih1ReZlcD374VV8v" name="Схема микроконтроллера">
+    <mxGraphModel dx="1420" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LIGlZevhTubzPNblb1Ox-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="40" width="889" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-2" value="Микроконтроллер" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="100" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-4" value="Ядро процессора (CPU)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-5" value="АЛУ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-6" value="Регистры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-7" value="Система тактирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-8" value="Flash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-9" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-10" value="EEPROM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-11" value="Системаня шина" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="320" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-12" value="Таймеры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-13" value="Контроллер прерываний (NVIC)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-14" value="Контроллер DMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905.5" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="590" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-16" value="Цифровые интерфейсы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-17" value="GPIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-18" value="UART" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-19" value="SPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615.5" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-20" value="I2C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-21" value="USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-22" value="АЦП" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="740" width="214.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGlZevhTubzPNblb1Ox-23" value="ЦАП" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="740" width="214.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-y1FLxtv_tudpmRuowd4" name="Применение микроконтроллера">
+    <mxGraphModel dx="1420" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F1DnudHCBfSISX9G_fRu-1" value="Датчик температуры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-2" value="Микроконтроллер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="414" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-3" value="Двигатели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-4" value="Датчик давления" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-5" value="Датчик освещенности" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-6" value="LED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1DnudHCBfSISX9G_fRu-7" value="Реле" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
