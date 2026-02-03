@@ -1,3 +1,9 @@
+---
+тема: Как начать работать с микроконтроллерами
+автор: Егор Анатольевич Денисов
+дата: 2026-01-22
+---
+
 # Linux
 - Выполнить в терминале:
 
@@ -36,6 +42,13 @@ arm-none-eabi-gcc --version
 
 # Результат
 
-![[Pasted image 20260124152216.png]]
+``` bash
+PC C:\users\potylitcyn> arm-none-eabi-gcc --version
+arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+PC C:\users\potylitcyn> 
+```
 
 Версия может отличаться, для наших задач это не принципиально
