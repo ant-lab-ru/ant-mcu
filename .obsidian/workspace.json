@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Микроконтроллеры.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Микроконтроллеры"
+            }
+          },
+          {
+            "id": "47dfc4b4f87f12ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Путь от компьютера к микроконтроллеру.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Путь от компьютера к микроконтроллеру"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "272bed48a4ef85f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b29ec8b755b7d9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72c6d1c698ea516",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "096a3d96dc82c5aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5b1cb362b2e734cc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "560e6ca4c27e1c37",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a3aa73c990a017a",
+        "type": "tabs",
+        "dimension": 33.18345323741007,
+        "children": [
+          {
+            "id": "8888e69e51d006d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Путь от компьютера к микроконтроллеру.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Путь от компьютера к микроконтроллеру"
+            }
+          },
+          {
+            "id": "3d20368f78b11d5b",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Как начать работать с микроконтроллерами/Как начать работать с микроконтроллерами.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1ea9308427722389",
+        "type": "tabs",
+        "dimension": 33.992805755395686,
+        "children": [
+          {
+            "id": "25f401ba75130895",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Путь от компьютера к микроконтроллеру.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Путь от компьютера к микроконтроллеру"
+            }
+          }
+        ]
+      },
+      {
+        "id": "63e3e8e533b7892e",
+        "type": "tabs",
+        "dimension": 32.82374100719424,
+        "children": [
+          {
+            "id": "42baae979f381fa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Путь от компьютера к микроконтроллеру.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Путь от компьютера к микроконтроллеру"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "47dfc4b4f87f12ab",
+  "lastOpenFiles": [
+    "Как начать работать с микроконтроллерами/Как начать работать с микроконтроллерами.md",
+    "Микроконтроллеры.md",
+    "Pasted image 20260126154203.png",
+    "Работа с документацией.md",
+    "Встроенное программное обеспечение (прошивка).md",
+    "Программатор и запись прошивки.md",
+    "SDK — готовые программные компоненты.md",
+    "Устройство микроконтроллера.md",
+    "Сборка прошивки.md",
+    "Применение микроконтроллеров.md",
+    "Путь от компьютера к микроконтроллеру.md",
+    "Занятие 1/Занятие 1.md",
+    "Как начать работать с микроконтроллерами/Задания/Установить SDK для RP2040.md",
+    "Устро.md",
+    "Глоссарий основных терминов.md",
+    "Flash.md",
+    "RTOS.md",
+    "Bare metal.md",
+    "Встраиваемые системы.md",
+    "АЦП.md",
+    "GPIO.md",
+    "Таймеры.md",
+    "UART.md",
+    "SPI.md",
+    "I2C.md",
+    "Занятие 1/pics/Схема микроконтроллера.png",
+    "Занятие 1/pics/Схема компьютера.png",
+    "Занятие 1/Pasted image 20260124150918.png",
+    "Занятие 1/Установить arm-none-eabi-gcc.md",
+    "Схемы/СхемаМикроконтроллера.png",
+    "Схемы/СхемаМикроконтроллера.drawio",
+    "Схемы/СхемаКомпьютера.png",
+    "Схемы/СхемаКомпьютера.drawio",
+    "Схемы/ПрименениеМикроконтроллера.png",
+    "Схемы/ПрименениеМикроконтроллера.drawio",
+    "Схемы",
+    "Как начать работать с микроконтроллерами/Задания/pics/Pasted image 20260127124232.png",
+    "Как начать работать с микроконтроллерами/Задания/pics",
+    "Как начать работать с микроконтроллерами/Материалы",
+    "Как начать работать с микроконтроллерами/Задания",
+    "Как начать работать с микроконтроллерами",
+    "Занятие 2/Pasted image 20260124153022.png",
+    "Занятие 2/Pasted image 20260124152515.png",
+    "Занятие 2",
+    "Текст на дисплее"
+  ]
+}
