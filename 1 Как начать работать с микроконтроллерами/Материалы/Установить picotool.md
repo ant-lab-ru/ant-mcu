@@ -35,7 +35,7 @@ picotool version
 
 - распаковать скаченный архив, запускать exe не нужно;
 - переместить папку picotool в Program Files;
-- добавить путь к picotool.exe в PATH;
+- [[Добавить в PATH]] путь к picotool.exe;
 - проверить корректность ручной установки:
 	
 ``` bash
