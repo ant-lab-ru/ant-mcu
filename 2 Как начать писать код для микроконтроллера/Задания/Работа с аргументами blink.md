@@ -16,12 +16,13 @@
 ## Инструкция
 
 1. в файл `led-task.h` добавить прототип функции `void led_task_set_blink_period_ms(uint32_t period_ms)`;
-2. в файле `led-task.c` добавить реализацию функции `led_task_set_blink_period_ms`, которая будет выставлять значение глобальной переменной `LED_BLINK_PERIOD_US`.
+2. в файл `led-task.c` добавить библиотеку ```"stdint.h"``` для работы с типами (`uint32_t`) 
+3. в файле `led-task.c` добавить реализацию функции `led_task_set_blink_period_ms`, которая будет выставлять значение глобальной переменной `LED_BLINK_PERIOD_US`.
 
    >[!ATTENTION] Обратите внимание
    >Переменная `LED_BLINK_PERIOD_US` в микросекундах, аргумент функции в миллисекундах
 
-3. в main.c создать функцию `led_blink_set_period_ms_callback`
+4. в main.c создать функцию `led_blink_set_period_ms_callback`
 	- в функции необходимо обработать строку `args` при помощи функции `sscanf`:
 
 ``` c
