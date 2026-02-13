@@ -33,9 +33,10 @@ picotool version
 ![[Pasted image 20260126175639.png|400]]
 ![[Pasted image 20260126175745.png|400]]
 
-- распаковать скаченный архив, запускать exe не нужно;
-- переместить папку picotool в Program Files;
-- [[Добавить в PATH]] путь к picotool.exe;
+- распаковать скаченный архив
+- запускать exe не нужно
+- переместить папку picotool в Program Files
+- [[Добавить в PATH]] путь к picotool.exe
 - проверить корректность ручной установки:
 	
 ``` bash
