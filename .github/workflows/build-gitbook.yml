@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
 
 jobs:
   trigger-deploy:
@@ -12,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger deploy workflow in obsidian-gitbook fork
-        uses: actions/github-script@v7
+        uses: actions/github-script@v5
         with:
           github-token: ${{ secrets.DEPLOY_PAT }}
           script: |
