@@ -11,7 +11,7 @@ static void write_pixels(const ili9341_display_t *dev,
                          uint16_t color, uint32_t count)
 {
     uint8_t pixel[2] = { (uint8_t)(color >> 8), (uint8_t)(color & 0xFFu) };
-    const ili9341_hal_t *hal = dev->hal;
+    const ili9341_hal_t *hal = &dev->hal;
 
     hal->gpio_cs_write(false);
     hal->gpio_dc_write(true);   /* data mode */

@@ -39,7 +39,7 @@ void ili9341_draw_char(const ili9341_display_t *dev,
                                x + font->width  - 1u,
                                y + font->height - 1u);
 
-    const ili9341_hal_t *hal = dev->hal;
+    const ili9341_hal_t *hal = &dev->hal;
     hal->gpio_cs_write(false);
     hal->gpio_dc_write(true);   /* data mode */
 
