@@ -49,13 +49,6 @@ void ili9341_draw_line(const ili9341_display_t *dev,
                        uint16_t x1, uint16_t y1,
                        uint16_t color);
 
-/** Render a null-terminated string. Stops at display edge. */
-void ili9341_draw_text(const ili9341_display_t *dev,
-                       uint16_t x, uint16_t y,
-                       const char *text,
-                       const ili9341_font_t *font,
-                       uint16_t color, uint16_t bg_color);
-
 /**
  * Set display rotation and update dev->width / dev->height accordingly.
  * Writes the MADCTL register (0x36) as per the spec.

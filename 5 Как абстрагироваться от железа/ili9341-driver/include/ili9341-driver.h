@@ -61,7 +61,7 @@ typedef enum
 
 typedef struct
 {
-    const ili9341_hal_t *hal;
+    ili9341_hal_t hal;
     uint16_t width;
     uint16_t height;
     ili9341_rotation_t rotation;
