@@ -39,7 +39,7 @@ void ili9341_draw_char(const ili9341_display_t *dev,
                                x + font->width  - 1u,
                                y + font->height - 1u);
 
-    const ili9341_hal_t *hal = dev->hal;
+    const ili9341_hal_t *hal = &dev->hal;
     hal->gpio_cs_write(false);
     hal->gpio_dc_write(true);   /* data mode */
 
@@ -57,4 +57,21 @@ void ili9341_draw_char(const ili9341_display_t *dev,
     }
 
     hal->gpio_cs_write(true);
+}
+
+void ili9341_draw_text(const ili9341_display_t *dev,
+                       uint16_t x, uint16_t y,
+                       const char *text,
+                       const ili9341_font_t *font,
+                       uint16_t color, uint16_t bg_color)
+{
+    if (!text || !font) return;
+
+    uint16_t cursor_x = x;
+    while (*text) {
+        if (cursor_x + font->width > dev->width) break;
+        ili9341_draw_char(dev, cursor_x, y, *text, font, color, bg_color);
+        cursor_x = (uint16_t)(cursor_x + font->width);
+        text++;
+    }
 }

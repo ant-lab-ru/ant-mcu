@@ -29,3 +29,11 @@ void ili9341_draw_char(const ili9341_display_t *dev,
                        uint16_t x, uint16_t y, char c,
                        const ili9341_font_t *font,
                        uint16_t color, uint16_t bg_color);
+
+
+/** Render a null-terminated string. Stops at display edge. */
+void ili9341_draw_text(const ili9341_display_t *dev,
+                       uint16_t x, uint16_t y,
+                       const char *text,
+                       const ili9341_font_t *font,
+                       uint16_t color, uint16_t bg_color);

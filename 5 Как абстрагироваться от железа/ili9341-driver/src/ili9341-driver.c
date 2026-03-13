@@ -4,7 +4,7 @@
 
 void ili9341_write_cmd(const ili9341_display_t *dev, uint8_t cmd)
 {
-    const ili9341_hal_t *hal = dev->hal;
+    const ili9341_hal_t *hal = &dev->hal;
     hal->gpio_cs_write(false);   /* select device          */
     hal->gpio_dc_write(false);   /* command mode (D/C LOW) */
     hal->spi_write(&cmd, 1);
@@ -14,7 +14,7 @@ void ili9341_write_cmd(const ili9341_display_t *dev, uint8_t cmd)
 void ili9341_write_data(const ili9341_display_t *dev,
                         const uint8_t *data, uint32_t len)
 {
-    const ili9341_hal_t *hal = dev->hal;
+    const ili9341_hal_t *hal = &dev->hal;
     hal->gpio_cs_write(false);   /* select device         */
     hal->gpio_dc_write(true);    /* data mode (D/C HIGH)  */
     hal->spi_write(data, len);
@@ -63,7 +63,7 @@ bool ili9341_init(ili9341_display_t *dev, const ili9341_hal_t *hal)
     if (!hal->gpio_reset_write)         return false;
     if (!hal->delay_ms)                 return false;
 
-    dev->hal      = hal;
+    dev->hal      = *hal;
     dev->width    = ILI9341_NATIVE_WIDTH;
     dev->height   = ILI9341_NATIVE_HEIGHT;
     dev->rotation = ILI9341_ROTATION_0;
